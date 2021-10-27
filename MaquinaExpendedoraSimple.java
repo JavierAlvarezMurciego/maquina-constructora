@@ -36,6 +36,13 @@
     }
     
     /**
+     * Permite cambiar el precio del billete
+     */
+    public void setprecioBillete(int cambiarPrecioBillete){
+       precioBillete = cambiarPrecioBillete;
+    }
+    
+    /**
      *  Nos devuelve el total de dinero acumulado en ella desde su último vaciado
      */
     public int getTotalDineroAcumulado(){
