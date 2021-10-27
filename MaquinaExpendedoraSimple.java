@@ -46,9 +46,9 @@
      * Permite reducir el valor del precio en una cantidad pasado como parámetro
      */
     public void setReducirPrecioBillete(int reducirValor){
-        precioBillete = reducirValor;
+        precioBillete -= reducirValor;
     }
-    
+
     /**
      *  Nos devuelve el total de dinero acumulado en ella desde su último vaciado
      */
