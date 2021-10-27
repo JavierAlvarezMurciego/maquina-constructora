@@ -10,6 +10,8 @@
     private String estacionOrigen;
     // El destino del billete
     private String estacionDestino;
+    //El total del dinero acumulado desde su ultimo vaciado
+    private int totalDineroAcumuladoUltimo;
 
     /**
      * Crea una maquina expendedora de billetes de tren con el 
@@ -33,6 +35,13 @@
         totalDineroAcumulado = 0;
         estacionOrigen = "León";
         estacionDestino = destino;
+    }
+    
+    /**
+     *  Nos devuelve el total de dinero acumulado en ella desde su último vaciado
+     */
+    public int getTotalDineroAcumuladoUltimo(){
+        return totalDineroAcumuladoUltimo;
     }
     
     /**
