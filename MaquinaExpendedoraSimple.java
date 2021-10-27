@@ -38,8 +38,15 @@
     /**
      * Permite cambiar el precio del billete
      */
-    public void setprecioBillete(int cambiarPrecioBillete){
+    public void setPrecioBillete(int cambiarPrecioBillete){
        precioBillete = cambiarPrecioBillete;
+    }
+    
+    /**
+     * Permite reducir el valor del precio en una cantidad pasado como parámetro
+     */
+    public void setReducirPrecioBillete(int reducirValor){
+        precioBillete = reducirValor;
     }
     
     /**
