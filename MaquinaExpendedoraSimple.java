@@ -48,7 +48,16 @@
     public void setReducirPrecioBillete(int reducirValor){
         precioBillete -= reducirValor;
     }
-
+    
+    /**
+     * Simula el proceso de extraer todo el dinero que haya acumulado en 
+     * la máquina
+     * desde su último vaciado
+     */
+    public void vaciarDepositoDinero(){
+        totalDineroAcumulado = 0;
+    }
+    
     /**
      *  Nos devuelve el total de dinero acumulado en ella desde su último vaciado
      */
